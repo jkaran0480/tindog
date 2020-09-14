@@ -1,0 +1,165 @@
+h1 {
+   font-family: "Montserrat", sans-serif;
+   color: #fff;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   padding: 70px 0 40px 0;
+}
+h2 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 2.5rem;
+   line-height: 1.5;
+}
+h3 {
+   font-family: "Montserrat", sans-serif;
+}
+p {
+   color: #8f8f8f;
+}
+
+#title {
+   background-color: #ff4c68;
+}
+
+.links {
+   height: 40px;
+   background-color: #ff4c68;
+   color: white;
+   font-family: sans-serif;
+   text-decoration: none;
+}
+.container-fluid {
+   padding: 3% 13% 7%;
+}
+
+.bars {
+   color: #fff;
+   text-align: center;
+   padding: 4px 9px;
+   border-radius: 3px;
+   border: 1px solid white;
+}
+.bars:hover {
+   color: black;
+   background-color: #fff;
+}
+.link-items {
+   position: relative;
+   left: 55%;
+}
+.links:hover {
+   color: #000;
+}
+.link-position {
+   color: white;
+   font-weight: 3;
+   padding: 0 5px;
+}
+.link-position:hover {
+   color: grey;
+   text-decoration: none;
+}
+.tindog {
+   color: #fff;
+   padding-left: 0;
+   font-family: "Ubuntu", sans-serif;
+   font-size: 2rem;
+   font-weight: bold;
+}
+.dog-img {
+   padding: 40px 0 0 35px;
+   width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+}
+@media (max-width: 1000px) {
+   .title-content {
+      text-align: center;
+   }
+   .dog-img {
+      position: static;
+      transform: rotate(0);
+   }
+}
+/*-------------------features----------------------------*/
+#features {
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+}
+.icons {
+   font-size: 50px;
+   padding-bottom: 3%;
+   color: #ef8172;
+}
+.icons:hover {
+   color: #e65531;
+}
+.feature-box {
+   text-align: center;
+   padding: 5%;
+}
+
+/*--------------------testimonials-section----------------------*/
+
+.carousel-item {
+   padding: 7% 15%;
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+}
+.testimonials-img {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+}
+#press {
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 4%;
+}
+.brands-logo {
+   width: 19%;
+   padding: 0 3%;
+}
+
+/*------------------------------pricing--------------------*/
+
+#pricing {
+   padding: 6%;
+   text-align: center;
+}
+.pricing-card {
+   padding: 3% 2%;
+}
+
+/*------------------call to action----------------------------*/
+
+#cta {
+   background-color: #ff4c68;
+   color: #fff;
+   padding: 7% 15%;
+   text-align: center;
+}
+.cta-heading {
+   font-family: "Montserrat", sans-serif;
+   font-size: 3rem;
+   line-height: 1.5;
+}
+.download-btn {
+   margin: 4% 1%;
+}
+.apple-icon {
+   padding-right: 4%;
+}
+/*---------------------footer-------------*/
+
+#footer {
+   padding: 6% 15%;
+   text-align: center;
+}
+.social-icon {
+   font-size: 20px;
+   margin: 0 2% 4% 2%;
+}
